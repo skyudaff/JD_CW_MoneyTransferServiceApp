@@ -1,0 +1,195 @@
+2023-11-24T23:07:21.033943100 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+Error transferring money
+2023-11-24T23:23:21.816698400 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+2023-11-24T23:46:26.539980200 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+2023-11-27T12:51:05.983197700 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+2023-11-27T13:59:35.865664100 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+2023-11-27T15:09:38.383108800 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+2023-11-27T15:44:15.563794800 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+2023-11-27T16:27:52.784494400 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+2023-11-27T16:32:19.282346300 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=100000, currency=RUR) Commission: null  null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=100000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=100000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=88463c26-8b4a-49eb-9899-efcfb4bffff6, code=0000)
+2023-11-27T17:25:09.991445300 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED 88463c26-8b4a-49eb-9899-efcfb4bffff6
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=500, currency=RUR) Commission: null  null null
+Transfer(uuid=null, dateTime=null, cardFromNumber=1234567890123456, cardToNumber=9876543210987654, cardFromValidTill=12/23, amount=Amount(value=1000, currency=RUB), commission=null, result=null)
+TransferConfirmation(operationId=f8f8dcb5-110c-4f1d-8780-0f60b78ddacc, code=0000)
+Transfer(uuid=f8f8dcb5-110c-4f1d-8780-0f60b78ddacc, dateTime=2023-11-27T20:54:42.773782600, cardFromNumber=1234567890123456, cardToNumber=9876543210987654, cardFromValidTill=12/23, amount=Amount(value=1000, currency=RUB), commission=10.00, result=COMPLETED)
+Transfer(uuid=null, dateTime=null, cardFromNumber=1234567890123456, cardToNumber=9876543210987654, cardFromValidTill=12/23, amount=Amount(value=1000, currency=RUB), commission=null, result=null)
+TransferConfirmation(operationId=dd59b312-91e5-448c-9697-31c29662cdc6, code=0000)
+Transfer(uuid=dd59b312-91e5-448c-9697-31c29662cdc6, dateTime=2023-11-27T21:22:16.009002, cardFromNumber=1234567890123456, cardToNumber=9876543210987654, cardFromValidTill=12/23, amount=Amount(value=1000, currency=RUB), commission=10.00, result=COMPLETED)
+Transfer(uuid=null, dateTime=null, cardFromNumber=1234567890123456, cardToNumber=9876543210987654, cardFromValidTill=12/23, amount=Amount(value=500, currency=RUR), commission=null, result=null)
+Transfer(uuid=null, dateTime=null, cardFromNumber=1234567890123456, cardToNumber=9876543210987654, cardFromValidTill=12/23, amount=Amount(value=500, currency=RUR), commission=null, result=null)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=f03b27b2-95d2-4250-98c8-157431256cb9, code=0000)
+2023-11-27T22:20:33.328958800 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED f03b27b2-95d2-4250-98c8-157431256cb9
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=5000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=7846f023-6887-4a23-b8a1-2fbf2332a6e5, code=0000)
+2023-11-27T22:22:00.028208600 From card: 1234567890123456 To card: 9876543210987654 Amount(value=5000, currency=RUR) Commission: 50.00  COMPLETED 7846f023-6887-4a23-b8a1-2fbf2332a6e5
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+Confirmation request received: TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+Confirmation request received: TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+Confirmation request received: TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987651 Amount(value=30000, currency=RUR) Commission: null  null null
+Error transferring money
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=c59092d6-4051-45c9-b3d4-5a0a508bdf55, code=0000)
+2023-11-28T11:38:58.778829500 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED c59092d6-4051-45c9-b3d4-5a0a508bdf55
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=9b715ae4-57b6-407d-8425-9de5d5e31f50, code=0000)
+2023-11-28T12:07:14.411570600 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED 9b715ae4-57b6-407d-8425-9de5d5e31f50
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=9b715ae4-57b6-407d-8425-9de5d5e31f50, code=0000)
+TransferConfirmation(operationId=5f25053c-24a9-40b3-ab16-4f1249840e17, code=000)
+2023-11-28T12:11:52.213216700 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  Error - Invalid verification code 5f25053c-24a9-40b3-ab16-4f1249840e17
+TransferConfirmation(operationId=5f25053c-24a9-40b3-ab16-4f1249840e17, code=0000)
+2023-11-28T12:11:52.213216700 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  Error - Invalid verification code 5f25053c-24a9-40b3-ab16-4f1249840e17
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=1, code=0000)
+2023-11-28T12:17:48.142005 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED 1
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=e5766afe-29c1-4b34-824a-3106d85eb6f2, code=0000)
+2023-11-28T12:36:49.562264 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED e5766afe-29c1-4b34-824a-3106d85eb6f2
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=5092f5e9-aeca-4edc-aa25-c09b03ad2458, code=0000)
+2023-11-28T13:07:13.239922100 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED 5092f5e9-aeca-4edc-aa25-c09b03ad2458
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=080ac604-d175-467e-9739-e68423430037, code=0000)
+2023-11-28T13:27:31.642200500 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED 080ac604-d175-467e-9739-e68423430037
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+null From card: null To card: null null Commission: null  null null
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+TransferConfirmation(operationId=3e4897a6-9894-4c34-b703-4326e5b18f13, code=0000)
+2023-11-28T15:53:59.368113800 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED 3e4897a6-9894-4c34-b703-4326e5b18f13
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+TransferConfirmation(operationId=null, code=0000)
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+Request confirm: TransferConfirmation(operationId=null, code=0000)
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+Request confirm: TransferConfirmation(operationId=be35d134-72c1-435f-b1fa-14f7ed5d7944, code=0000)
+2023-11-28T16:36:51.931232300 From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: 10.00  COMPLETED be35d134-72c1-435f-b1fa-14f7ed5d7944
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+Request confirm: TransferConfirmation(operationId=null, code=0000)
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+Request confirm: TransferConfirmation(operationId=null, code=0000)
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
