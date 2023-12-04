@@ -193,3 +193,9 @@ Request confirm: TransferConfirmation(operationId=null, code=0000)
 Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
 Request confirm: TransferConfirmation(operationId=null, code=0000)
 Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUB) Commission: null  null null
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=30000, currency=RUR) Commission: null  null null
+Request confirm: TransferConfirmation(operationId=null, code=0000)
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUR) Commission: null  null null
+Request confirm: TransferConfirmation(operationId=null, code=0000)
+Request transfer: null From card: 1234567890123456 To card: 9876543210987654 Amount(value=1000, currency=RUR) Commission: null  null null
+Request confirm: TransferConfirmation(operationId=null, code=0000)
