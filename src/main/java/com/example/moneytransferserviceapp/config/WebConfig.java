@@ -9,15 +9,18 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig implements WebMvcConfigurer {
     @Value("${cross.origin}")
     private String origins;
+    private static final String TRANSFER_MAPPING = "/transfer";
+    private static final String CONFIRM_MAPPING = "/confirmOperation";
+    private static final String HTTP_METHOD = "POST";
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/transfer")
+        registry.addMapping(TRANSFER_MAPPING)
                 .allowedOrigins(origins)
-                .allowedMethods("POST");
+                .allowedMethods(HTTP_METHOD);
 
-        registry.addMapping("/confirmOperation")
+        registry.addMapping(CONFIRM_MAPPING)
                 .allowedOrigins(origins)
-                .allowedMethods("POST");
+                .allowedMethods(HTTP_METHOD);
     }
 }

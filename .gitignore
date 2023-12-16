@@ -1,7 +1,3 @@
-HELP.md
-.gradle
-build/
-
 ### STS ###
 .apt_generated
 .classpath
@@ -43,7 +39,8 @@ captures/
 *.tar.gz
 *.rar
 
-### Gradle ###
-!gradle/wrapper/gradle-wrapper.jar
-# Project exclude paths
-/target/
+# Maven
+.mvn
+target/
+mvnw
+mvnw.cmd

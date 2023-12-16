@@ -1,4 +1,4 @@
-package com.example.moneytransferserviceapp.model;
+package com.example.moneytransferserviceapp.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

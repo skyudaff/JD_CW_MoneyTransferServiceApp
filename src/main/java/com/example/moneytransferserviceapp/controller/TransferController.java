@@ -1,31 +1,16 @@
 package com.example.moneytransferserviceapp.controller;
 
-import com.example.moneytransferserviceapp.logger.TransferLogger;
-import com.example.moneytransferserviceapp.model.Transfer;
-import com.example.moneytransferserviceapp.model.TransferConfirmation;
-import com.example.moneytransferserviceapp.service.TransferService;
-import lombok.RequiredArgsConstructor;
+import com.example.moneytransferserviceapp.dto.TransferConfirmation;
+import com.example.moneytransferserviceapp.dto.TransferOperation;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-@RestController
-@RequiredArgsConstructor
 @RequestMapping("/")
-public class TransferController {
-    private final TransferService transferService;
-    private final TransferLogger transferLogger;
-
-
+public interface TransferController {
     @PostMapping("transfer")
-    public ResponseEntity<?> getResponse(@RequestBody @Validated Transfer transfer) {
-        transferLogger.writeLog("Request transfer: " + transfer);
-        return ResponseEntity.ok(transferService.operation(transfer));
-    }
+    ResponseEntity<TransferOperation> getResponse(TransferOperation transfer);
 
     @PostMapping("confirmOperation")
-    public ResponseEntity<?> confirmOperation(@RequestBody TransferConfirmation confirm) {
-        transferLogger.writeLog("Request confirm: " + confirm);
-        return ResponseEntity.ok(transferService.confirmation(confirm));
-    }
+    ResponseEntity<TransferConfirmation> confirmOperation(TransferConfirmation confirm);
 }

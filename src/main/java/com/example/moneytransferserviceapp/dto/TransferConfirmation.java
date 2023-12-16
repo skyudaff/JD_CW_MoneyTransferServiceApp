@@ -1,14 +1,14 @@
-package com.example.moneytransferserviceapp.model;
+package com.example.moneytransferserviceapp.dto;
 
 import jakarta.validation.constraints.NotBlank;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
+
 
 @Data
-@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class TransferConfirmation {
     @NotBlank
     private String operationId;
-    @NotBlank
     private String code;
 }

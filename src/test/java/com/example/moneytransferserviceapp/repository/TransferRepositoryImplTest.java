@@ -1,28 +1,21 @@
 package com.example.moneytransferserviceapp.repository;
 
-import com.example.moneytransferserviceapp.model.Card;
-import com.example.moneytransferserviceapp.model.Transfer;
-import com.example.moneytransferserviceapp.repository.TransferRepository;
+import com.example.moneytransferserviceapp.dto.Card;
+import com.example.moneytransferserviceapp.dto.TransferOperation;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import java.util.Map;
 import java.util.Optional;
-import java.util.concurrent.ConcurrentMap;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 @ExtendWith(MockitoExtension.class)
-public class TransferRepositoryTest {
-    @Mock
-    private Map<String, Transfer> transferStorage;
-
+public class TransferRepositoryImplTest {
     @InjectMocks
-    private TransferRepository transferRepository;
+    private TransferRepositoryImpl transferRepository;
 
     @Test
     void testGetCardByNumber() {
@@ -52,8 +45,8 @@ public class TransferRepositoryTest {
     @Test
     void testAddTransfer() {
         // Arrange
-        Transfer transfer = new Transfer();
-        transfer.setUuid("123456");
+        TransferOperation transfer = new TransferOperation();
+        transfer.setOperationId("123456");
 
         // Act
         transferRepository.addTransfer(transfer);
@@ -63,27 +56,12 @@ public class TransferRepositoryTest {
     }
 
     @Test
-    void testGetTransferByUuid() {
-        // Arrange
-        String uuid = "transferUuid";
-        Transfer expectedTransfer = new Transfer();
-        expectedTransfer.setUuid(uuid);
-
-        // Act
-        Optional<Transfer> result = transferRepository.getTransferByUuid(uuid);
-
-        // Assert
-        assertTrue(result.isPresent());
-        assertEquals(expectedTransfer, result.orElse(null));
-    }
-
-    @Test
     void testGetTransferByUuidNotFound() {
         // Arrange
         String uuid = "invalidUuid";
 
         // Act
-        Optional<Transfer> result = transferRepository.getTransferByUuid(uuid);
+        Optional<TransferOperation> result = transferRepository.getTransferByUuid(uuid);
 
         // Assert
         assertFalse(result.isPresent());

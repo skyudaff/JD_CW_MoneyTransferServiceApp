@@ -15,11 +15,11 @@ public class TransferLogger {
     @Value("${logger.file.path}")
     private String logFilePath;
 
-    public void writeLog(String msg) {
+    public synchronized void writeLog(String msg) {
         File file = new File(logFilePath);
         try {
             if (file.createNewFile()) {
-                System.out.println("File is created");
+                System.out.println("LogFile is created");
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

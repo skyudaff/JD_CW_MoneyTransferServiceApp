@@ -1,5 +1,4 @@
-package com.example.moneytransferserviceapp.model;
-
+package com.example.moneytransferserviceapp.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -9,10 +8,10 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
-@EqualsAndHashCode
 @RequiredArgsConstructor
-public class Transfer {
-    private String uuid;
+@EqualsAndHashCode
+public class TransferOperation {
+    private String operationId;
     private LocalDateTime dateTime;
     private String cardFromNumber;
     private String cardToNumber;
@@ -20,12 +19,4 @@ public class Transfer {
     private Amount amount;
     private BigDecimal commission;
     private String result;
-
-
-    @Override
-    public String toString() {
-        return String.format("%s From card: %s To card: %s %s Commission: %s  %s %s",
-                getDateTime(), getCardFromNumber(), getCardToNumber(),
-                getAmount(), getCommission(), getResult(), getUuid());
-    }
 }
