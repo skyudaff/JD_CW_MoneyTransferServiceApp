@@ -10,3 +10,6 @@ Error transferring money
 Request transfer: TransferOperation(operationId=null, dateTime=null, cardFromNumber=1234567890123456, cardToNumber=1234567890123456, cardFromValidTill=12/24, amount=Amount[value=10000, currency=RUR], commission=null, result=null)
 Request confirm: TransferConfirmation(operationId=6038c32d-5358-4f1e-a157-7d2222f32a74, code=0000)
 TransferOperation(operationId=6038c32d-5358-4f1e-a157-7d2222f32a74, dateTime=2023-12-16T21:58:34.383383100, cardFromNumber=1234567890123456, cardToNumber=1234567890123456, cardFromValidTill=12/23, amount=Amount[value=10000, currency=RUR], commission=100.00, result=COMPLETED)
+Request transfer: TransferOperation(operationId=null, dateTime=null, cardFromNumber=9876543210987654, cardToNumber=9876543210987654, cardFromValidTill=12/32, amount=Amount[value=100, currency=RUR], commission=null, result=null)
+Request confirm: TransferConfirmation(operationId=1b6bc79f-f150-4ee3-9a23-2a0f3cdc3cd8, code=0000)
+TransferOperation(operationId=1b6bc79f-f150-4ee3-9a23-2a0f3cdc3cd8, dateTime=2023-12-17T01:38:54.729113500, cardFromNumber=9876543210987654, cardToNumber=9876543210987654, cardFromValidTill=10/24, amount=Amount[value=100, currency=RUR], commission=1.00, result=COMPLETED)

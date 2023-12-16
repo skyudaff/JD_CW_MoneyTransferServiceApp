@@ -39,8 +39,8 @@ captures/
 *.tar.gz
 *.rar
 
-# Maven
-.mvn
-target/
+### Maven ###
 mvnw
 mvnw.cmd
+/.mvn/
+/target/
